@@ -62,7 +62,7 @@ public void pack(String s,String put)throws  FileNotFoundException,IOException{
                 jarfile.write(bf,0,len);}
                 jarfile.closeEntry();}}
     
-                //lg mn6353n 3150
+                //lg mn6353n 3150:)
 
     catch(FileNotFoundException e){System.out.printf("error1");}    
     catch(IOException e){System.out.printf("error2"+e);}
